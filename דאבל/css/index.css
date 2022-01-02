@@ -1,0 +1,28 @@
+    body {
+        background: url(../images/backgrounds.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    img {
+        width: 400px;
+        height: 300px;
+        flex: 1;
+    }
+    
+    .gameDiv div {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        color: black;
+        font-size: 130%;
+    }
+    
+    p {
+        flex: 1;
+        padding: 0 20%;
+    }
+    
+    .bodyOfIndex {
+        color: black;
+    }
